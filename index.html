@@ -5,43 +5,47 @@
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-	<div id="header">
-		<ul id="top-right">
-			<li class="header-button"><a href="#">+You</a></li>
-			<li class="header-button"><a href="#">Gmail</a></li>
-			<li class="header-button"><a href="#">Images</a></li>
-			<li id="app" class="header-button"><img src="apps.png"></li>
-			<li id="sign-in" class="header-button"><a href="#">Sign In</a></li>
-		</ul>
+
+	<div id="container">
+		<div id="header">
+			<ul id="top-right">
+				<li class="header-button"><a href="#">+You</a></li>
+				<li class="header-button"><a href="#">Gmail</a></li>
+				<li class="header-button"><a href="#">Images</a></li>
+				<li id="app" class="header-button"><img src="apps.png"></li>
+				<li id="sign-in" class="header-button"><a href="#">Sign In</a></li>
+			</ul>
+		</div>
+		<div id="body">
+				<img src="google-logo.png" alt="Google Logo">
+				<form>
+					<input type="text" id="search-bar" name="search">
+				</form>	
+
+				<div class="buttons">
+					<input type="submit" name="search" value="Google Search">
+					<input type="submit" name="lucky" value="I'm Feeling Lucky">
+				</div>
+		</div>
 	</div>
 
-	<center>
-		<img src="google-logo.png" alt="Google Logo">
-		<form id="search-bar">
-			<input type="text" name="search">
-		</form>
-		<div class="buttons">
-			<input type="submit" name="search" value="Google Search">
-			<input type="submit" name="lucky" value="I'm Feeling Lucky">
-		</div>
-	</center>
-
 	<div id="footer">
-		<!--<div id="left-footer">-->
-			<ul id="left-footer">
+		<div id="left-footer">
+			<ul>
 				<li class="left-footer-button"><a href="#">Advertising</a></li>
 				<li class="left-footer-button"><a href="#">Business</a></li>
 				<li class="left-footer-button"><a href="#">About</a></li>
 			</ul>
-		<!-- </div> -->
+		</div>
 
-		<!-- <div id="right-footer"> -->
-			<ul id="right-footer">
+		<div id="right-footer">
+			<ul>
 				<li class="right-footer-button"><a href="#">Privacy</a></li>
 				<li class="right-footer-button"><a href="#">Terms</a></li>
 				<li class="right-footer-button"><a href="#">Settings</a></li>
 			</ul>
-		<!-- </div> -->
+		</div>
 	</div>
+
 </body>
 </html>

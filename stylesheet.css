@@ -1,14 +1,27 @@
-body {position: relative;}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
 
-center {
+#container {
+	min-height: 100%;
+}
+
+#body {
 	padding-top: 150px;
+	padding-bottom: 40px;
 }
 
 ul {
 	padding: 0;
+	margin: 0;
 }
+
 #top-right {
 	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
 }
 
 .header-button {
@@ -18,9 +31,21 @@ ul {
 
 }
 
+#search-bar {
+	width: 375px;
+	margin-top: 25px;
+}
+
 #footer {
-	padding: 1rem;
+	position: absolute;
+	margin-top: -40px;
+	height: 40px;
+	clear: both;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	background-color: #efefef;
+	border-top: 1px solid #e4e4e4;
 }
 
 .left-footer-button {
@@ -37,8 +62,12 @@ ul {
 
 #left-footer {
 	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
 }
 
 #right-footer {
 	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
 }
