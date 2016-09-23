@@ -15,6 +15,11 @@ body {
 	margin: 0 auto;
 }
 
+#body img {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
 ul {
 	padding: 0;
 	margin: 0;
@@ -81,7 +86,13 @@ ul {
 	margin-right: 10px;
 	margin-top: 10px;
 }
-
-#buttons {
-	margin: 0 auto;
+.buttons {
+	padding-top: 20px;
+	width: 200px;
+	margin-left: 80px;
+}
+.buttons input {
+	border-radius: 3px;
+	background-color: #f2f2f2;
+	border: 2px solid #f2f2f2;
 }
